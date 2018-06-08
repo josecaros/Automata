@@ -5,6 +5,7 @@
  */
 package automata;
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 /**
@@ -12,21 +13,32 @@ import java.awt.Graphics;
  * @author jcaros
  */
 public class PainterNodo {
-   public int x,y;
+   public int x,y,vert=1;
    private String nombre;
-   public static final int diametro=55;
+   public static final int diametro=40;
    
    public PainterNodo(int a, int b, String nom){
       x=a;
       y=b;
       nombre = nom;
+      
    }
    
    public void pintar(Graphics graf){
       graf.drawOval(x-diametro/2, y-diametro/2, diametro, diametro);
       graf.drawString(nombre, x, y);
+      
+      
    }
-
+   
+   public int getVert(){
+      return vert;
+   }
+   
+   public void setVert(int vert){
+      this.vert=vert;
+   }
+   
    public int getX() {
       return x;
    }

@@ -80,7 +80,7 @@ public class Main {
       automata.agregarEstado(c, false);
       automata.agregarEstado(d, true);
       
-      automata.agregarTransicion(a, '1', a);
+      automata.agregarTransicion("q0", '1', "q0");
       automata.agregarTransicion(a, '0', b);
       automata.agregarTransicion(a, '2', c);
       automata.agregarTransicion(b, '0', b);

@@ -69,6 +69,14 @@ public class Deterministico implements Automata{
       return null;
    }
    
+   public void recorrer(){
+      Nodo aux=inicio;
+      while(aux!=null){
+         System.out.println(aux.nombre);
+         aux=aux.next;
+      }
+   }
+   
    public Nodo searchNodo(String dato) {
       Nodo aux=inicio;
       while(aux!=null){

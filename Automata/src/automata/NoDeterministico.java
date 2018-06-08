@@ -78,6 +78,14 @@ public class NoDeterministico implements Automata{
       alfabeto=alf;
    }
    
+   public void recorrer(){
+      Nodo aux=inicio;
+      while(aux!=null){
+         System.out.println(aux.nombre + aux.fin);
+         aux=aux.next;
+      }
+   }
+   
    public Nodo searchNodo(String dato) {
       Nodo aux=inicio;
       while(aux!=null){

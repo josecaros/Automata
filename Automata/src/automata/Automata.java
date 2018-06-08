@@ -16,6 +16,8 @@ public interface Automata {
    public void agregarTransicion(String a, char elem, String b);
    public boolean evaluarEntrada(String entrada);
    public void agregarAlfabeto(char [] alf);
+   public void recorrer();
+   public Nodo searchNodo(String a);
    
    
 }

@@ -5,14 +5,9 @@
         <group>
             <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Automata.java</file>
             <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/PainterNodo.java</file>
-            <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Deterministico.java</file>
-            <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/PainterArista.java</file>
-            <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/NoDeterministico.java</file>
             <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/PainterCuadro.java</file>
             <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Painter.java</file>
             <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Main.java</file>
-            <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Hash.java</file>
-            <file>file:/home/jcaros/NetBeansProjects/Automata/src/automata/Nodo.java</file>
         </group>
     </open-files>
 </project-private>
